@@ -1,0 +1,29 @@
+.banner {
+    align-items: center;
+    display: flex;
+    height: 36vh;
+    justify-content: flex-start;
+    width: 100vw;
+}
+.banner__img {
+    display: flex;
+    height: 20vh;
+    width: 100vw;
+}
+@media (min-width: 834px){
+    .banner__img {
+        display: flex;
+        height: 25vh;
+        position: relative;
+        left: 12rem;
+        width: 55vw;
+    }
+}
+
+@media (min-width: 1440px){
+    .banner__img{
+        position: relative;
+        left: 33rem;
+        width: 35vw;
+    }
+}

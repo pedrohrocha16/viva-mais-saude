@@ -1,0 +1,23 @@
+.navigation {
+    background: #e7e7e7;
+    display: flex;
+    justify-content: space-around;
+    height: 6vh;
+}
+.navigation a {
+    display: flex;
+}
+.navigation__redessociais {
+    height: 5vh;
+}
+.navigation__logo {
+    display: flex;
+    top: 25px;
+    height: 5vh;
+}
+
+@media (min-width: 1440px){
+    .navigation{
+        justify-content: space-evenly;
+    }
+}
