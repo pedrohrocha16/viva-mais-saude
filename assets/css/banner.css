@@ -19,11 +19,3 @@
         width: 55vw;
     }
 }
-
-@media (min-width: 1440px){
-    .banner__img{
-        position: relative;
-        left: 33rem;
-        width: 35vw;
-    }
-}

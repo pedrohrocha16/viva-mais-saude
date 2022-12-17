@@ -15,9 +15,3 @@
     top: 25px;
     height: 5vh;
 }
-
-@media (min-width: 1440px){
-    .navigation{
-        justify-content: space-evenly;
-    }
-}
