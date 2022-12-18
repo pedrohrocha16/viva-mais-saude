@@ -4,3 +4,8 @@
     font-size: 40px;
     justify-content: center;
 }
+@media (min-width: 1440px){
+    .material-symbols-outlined {
+        display: none;
+    }
+}

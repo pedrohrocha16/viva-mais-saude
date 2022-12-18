@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="assets\img\icon.png" type="image/x-icon">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <title>Viva Mais - Live more and better!</title>
         <link rel="stylesheet" href="assets\css\normalize.css">
         <link rel="stylesheet" href="assets\css\reset.css">
@@ -25,10 +26,25 @@
             <div class="banner">
                 <img class="banner__img" src="assets\img\logo-principal.png" alt="logo principal">           
             </div>
-                <span class="material-symbols-outlined">menu</span>
+                <i class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+                    <ul id="itens" class="menu">
+                        <li class="menu__li"><a class="menu__a" href="#"></a>História</li>
+                        <li class="menu__li"><a class="menu__a" href="#"></a>Campanhas</li>
+                        <li class="menu__li"><a class="menu__a" href="#"></a>Notícias</li>
+                    </ul>
         </header>
         <main>
             
         </main>
+        <script>
+            function clickMenu() {
+               if (itens.style.display == 'flex') {
+                itens.style.display = 'none'
+               }
+               else {
+                itens.style.display = 'flex'
+               }
+            }
+        </script>
     </body>
 </html>

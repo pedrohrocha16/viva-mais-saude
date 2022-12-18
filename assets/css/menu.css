@@ -1,0 +1,18 @@
+.menu {
+    align-items: center;
+    background: antiquewhite;
+    display: none;
+    height: 8vh;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+.menu__li {
+    display: flex;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.4rem;
+}
+@media (min-width: 1440px){
+    .menu {
+        display: flex;
+    }
+}
