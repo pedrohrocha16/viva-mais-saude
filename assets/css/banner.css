@@ -1,7 +1,7 @@
 .banner {
     align-items: center;
     display: flex;
-    height: 36vh;
+    height: 25vh;
     justify-content: flex-start;
     width: 100vw;
 }
@@ -17,5 +17,12 @@
         position: relative;
         left: 12rem;
         width: 55vw;
+    }
+}
+@media (min-width: 1440px){
+    .banner__img {
+        height: 20vh;
+        left: 30rem;
+        width: 40vw;
     }
 }
