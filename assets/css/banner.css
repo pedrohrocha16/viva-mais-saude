@@ -10,6 +10,11 @@
     height: 20vh;
     width: 100vw;
 }
+.banner__principal {
+    display: flex;
+    height: 45vh;
+    width: 100vw;
+}
 @media (min-width: 834px){
     .banner__img {
         display: flex;
@@ -24,5 +29,11 @@
         height: 20vh;
         left: 30rem;
         width: 40vw;
+    }
+    .banner__principal {
+        height: 50vh;
+        left: 20%;
+        position: relative;
+        width: 60vw;
     }
 }
