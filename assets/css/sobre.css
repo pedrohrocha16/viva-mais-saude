@@ -1,0 +1,20 @@
+.principal {
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+}
+.sobre__titulo {
+    color: #d74343;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    font-weight: 100;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.sobre__descricao {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
