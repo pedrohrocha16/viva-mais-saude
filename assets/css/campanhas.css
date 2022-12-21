@@ -28,3 +28,8 @@
         max-width: 45vw;
     }
 }
+@media (min-width: 1280px){
+    .campanhas__img {
+        max-width: 35vw;
+    }
+}
