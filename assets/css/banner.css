@@ -23,6 +23,9 @@
         left: 12rem;
         width: 55vw;
     }
+    .banner__principal {
+        height: 60vh;
+    }
 }
 @media (min-width: 1440px){
     .banner__img {

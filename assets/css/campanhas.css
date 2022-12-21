@@ -1,0 +1,30 @@
+.campanhas {
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+}
+.campanhas__titulo {
+    color: #d74343;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    font-weight: 100;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.campanhas__img {
+    border-style: double;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    width: 95vw;
+}
+@media (min-width: 834px){
+    .campanhas {
+        align-items: center;
+        display: flex;
+    }
+    .campanhas__img {
+        max-width: 45vw;
+    }
+}
