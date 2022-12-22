@@ -12,6 +12,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 1.4rem;
     font-weight: bold;
+    cursor: pointer;
 }
 @media (min-width: 1280px){
     .menu {

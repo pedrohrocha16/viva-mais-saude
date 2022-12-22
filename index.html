@@ -34,16 +34,16 @@
             </div>
                 <i class="material-symbols-outlined" onclick="clickMenu()">menu</i>
                     <ul id="itens" class="menu">
-                        <li class="menu__li"><a class="menu__a" href="#"></a>História</li>
-                        <li class="menu__li"><a class="menu__a" href="#"></a>Campanhas</li>
-                        <li class="menu__li"><a class="menu__a" href="#"></a>Notícias</li>
+                        <li onclick="rollPage1()" class="menu__li"><a class="menu__a" href="#"></a>História</li>
+                        <li onclick="rollPage2()" class="menu__li"><a class="menu__a" href="#"></a>Campanhas</li>
+                        <li onclick="rollPage3()" class="menu__li"><a class="menu__a" href="#"></a>Notícias</li>
                     </ul>
                 <img class="banner__principal" src="assets\img\alimentos-saudades-funcionais.jpg" alt="alimentos-saudades-funcionais">
         </header>
         <main class="principal">
             <h2 class="sobre__titulo">Nossa História:</h2>
             <p class="sobre__descricao">A Aliança pela Alimentação Adequada e Saudável, lançada oficialmente em outubro de 2016 na cidade de Porto Alegre durante o XXIV Congresso Brasileiro de Nutrição, é uma coalizão que reúne organizações da sociedade civil, associações, coletivos, movimentos sociais, entidades profissionais e pessoas físicas que defendem o interesse público com o objetivo de desenvolver e fortalecer ações coletivas que contribuam para a realização do Direito Humano à Alimentação Adequada (DHAA). Suas ações buscam o avanço de políticas públicas para a garantia da Segurança Alimentar e Nutricional (SAN) e da Soberania Alimentar no Brasil.</p>
-                <h3 class="campanhas__titulo">Nossas Campanhas:</h3>
+                <h3 id="campanhas__titulo" class="campanhas__titulo">Nossas Campanhas:</h3>
             <div class="campanhas">
                     <img class="campanhas__img" src="assets\img\campanha-1.png" alt="campanha-1">
                     <img class="campanhas__img" src="assets\img\campanha-2.jpg" alt="campanha-2">
@@ -80,15 +80,6 @@
                 </ul>
             </section>
         </main>
-        <script>
-            function clickMenu() {
-               if (itens.style.display == 'flex') {
-                itens.style.display = 'none'
-               }
-               else {
-                itens.style.display = 'flex'
-               }
-            }
-        </script>
+        <script src="assets\script.js"></script>
     </body>
 </html>
