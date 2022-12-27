@@ -24,13 +24,22 @@
     width: 35vw;
 }
 .noticias__manchete {
-    color: black;
     display: flex;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
     position: relative;
-    text-decoration: none;
     top: -0.5rem;
+}
+@media (min-width: 1440px){
+    .noticias__img {
+        width: 29vw;
+    }
+    .noticias__titulo {
+        font-size: 3rem;
+    }
+    .noticias__manchete {
+        font-size: 1.2rem;
+    }
 }
