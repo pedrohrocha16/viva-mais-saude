@@ -1,3 +1,4 @@
+alert('Site em construção...')
 function clickMenu() {
     if (itens.style.display == 'flex') {
      itens.style.display = 'none'
