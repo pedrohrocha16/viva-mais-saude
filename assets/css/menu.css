@@ -14,9 +14,14 @@
     font-size: 1.3rem;
     font-weight: bold;
 }
+.menu__li:hover {
+    color: black;
+    text-decoration: underline;
+    transition: 0.5s;
+}
 @media (min-width: 1280px){
     .menu {
-        background: #f7c985;
+        background: rgb(248, 220, 184);
     }
 }
 @media (min-width: 1440px){

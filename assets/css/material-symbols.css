@@ -6,6 +6,9 @@
     font-size: 40px;
     justify-content: center;
 }
+.material-symbols-outlined:active {
+    color: rgb(80, 177, 85);
+}
 @media (min-width: 1440px){
     .material-symbols-outlined {
         display: none;

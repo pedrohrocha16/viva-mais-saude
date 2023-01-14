@@ -1,8 +1,9 @@
 .navigation {
-    background: #e7e7e7;
+    background: antiquewhite;
     display: flex;
     justify-content: space-around;
     height: 6vh;
+    padding-bottom: 2rem;
 }
 .navigation a {
     display: flex;
@@ -14,4 +15,9 @@
     display: flex;
     top: 25px;
     height: 5vh;
+}
+@media (min-width: 1280px){
+    .navigation {
+        justify-content: flex-end;
+    }
 }

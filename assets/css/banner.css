@@ -38,6 +38,12 @@ header {
         left: 0;
          width: 35vw;
     }
+    .banner__principal {
+        display: flex;
+        left: 8rem;
+        max-width: 80vw;
+        position: relative;
+    }
 }
 @media (min-width: 1440px){
     .banner__img {
